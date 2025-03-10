@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一个网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-top: 100px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎访问我的网页！🎉</h1>
+    <p>这是一个从开发到部署的完整示例。</p>
+    <button class="button" onclick="showMessage()">点我互动</button>
+    <script>
+        function showMessage() {
+            alert("你好，世界！");
+        }
+    </script>
+</body>
+</html>
